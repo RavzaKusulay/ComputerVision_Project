@@ -17,10 +17,10 @@ kamera = cv2.VideoCapture("test_video.mp4")
 
 # Güvenlik bölgesi
 yasak_bolge = np.array([
-    [1911, 1076],
-    [1697, 1078],
-    [1495, 372],
-    [1561, 378]
+    [1500, 389],
+    [1694, 1078],
+    [1918, 575],
+    [1571, 293],
 ], np.int32)
 
 alarm_bekleme_suresi = 0

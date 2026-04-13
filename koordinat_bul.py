@@ -6,7 +6,7 @@ def fare_tiklamasi(event, x, y, flags, param):
         print(f"[{x}, {y}],")
 
 # Videomuzu açıyoruz
-kamera = cv2.VideoCapture("test_video.mp4")
+kamera = cv2.VideoCapture("main_test.mp4")
 
 # Videonun sadece ilk karesini (fotoğrafını) okuyoruz
 basarili_mi, ilk_kare = kamera.read()
