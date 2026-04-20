@@ -1,0 +1,7 @@
+path: dataset
+
+train: C:/Users/user/Desktop/ComputerVision_Project/dataset/images/train
+val: C:/Users/user/Desktop/ComputerVision_Project/dataset/images/train
+
+names:
+  0: person
